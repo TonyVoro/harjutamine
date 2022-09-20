@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+input {
+    display: block;
+}
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+</style>
+<body>
+
+    <table style="margin-left:auto; margin-right:auto;">
+        <thead style="background-color: darkgoldenrod;">
+            <th>Title1</th>
+            <th>Title2</th>
+            <th>Title3</th>
+            <th>Title4</th>
+            <th>Title5</th>
+        </thead>
+        <tbody>
+            <td>Data1</td>
+            <td>Data2</td>
+            <td>Data3</td>
+            <td>Data4</td>
+            <td>data5</td>
+
+            <tr>
+                <td>Data6</td>
+                <td>Data7</td>
+                <td>Data8</td>
+                <td>Data9</td>
+                <td>Data10</td>
+            </tr>
+            <tr>
+                <td>Data11</td>
+                <td>Data12</td>
+                <td>Data12</td>
+                <td>Data13</td>
+                <td>Data14</td>
+            </tr>
+            <tr>
+                <td>Data15</td>
+                <td>Data16</td>
+                <td>Data17</td>
+                <td>Data18</td>
+                <td>Data19</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+        
+    <form>
+        <label for="Number">Number</label>
+    <input type="number">
+        <label for="Textarea">Textarea</label>
+    <input type="textarea" id="enter">
+           <button type="button" onclick="refreshpage()">Enter</button>
+                <script>
+                    function refreshpage(){
+                        window.location.reload();
+                    }
+                </script>
+
+        <label for="password">Password</label>
+    <input type="password">
+    
+        
+    
+    </form>
+</body>
+</html>
